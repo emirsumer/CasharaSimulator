@@ -211,7 +211,7 @@ public class OrderPanel : MonoBehaviour,IInteractable
                 summary += spec.amount + "x " + product.ProductName + "\n"; // "Adet x ÜrünAdý" þeklinde alt alta yaz
             }
         }
-        summary += "\nToplam: " + totalCost; //en alta toplam tutarý yaz
+        summary += "\nTotal: " + totalCost; //en alta toplam tutarý yaz
         cartSummaryText.text = summary;
 
         categoryPanel.SetActive(false);
