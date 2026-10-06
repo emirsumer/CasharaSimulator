@@ -57,7 +57,7 @@ A first-person 3D market management simulator built with **Unity 6**. Build shel
 - **Build Mode:** Toggle build mode, pick a shelf or a register, preview it with green (valid) / red (blocked) feedback, rotate it with the mouse wheel and place it. Placement is free.
 - **Order Panel:** Browse Food, Drink and Snack categories, set quantities, review the cart and confirm the order. Warnings appear for insufficient funds and for exceeding the box capacity.
 - **Order Boxes:** Each order arrives in a box with 9 slots (3x3). Pick it up, carry it to a shelf and the products jump onto the free slots (DOTween animations). Empty boxes are removed automatically.
-- **Coin Economy:** Start with 200 coins. Products have separate buy and sell prices, so every sale makes a profit.
+- **Coin Economy:** Start with 50 coins. Products have separate buy and sell prices, so every sale makes a profit.
 - **Customer AI:** Customers use NavMesh and a task-based system (patrol, visit a shelf, pay at the register, leave). They take 1-3 products and wait up to 5 seconds if a shelf is empty.
 - **Queue System:** Shelves and registers manage their own customer queues; customers line up and move forward when someone leaves.
 - **Register Interaction:** The first customer in line turns the register screen green; interact with it to complete the sale and earn coins.
