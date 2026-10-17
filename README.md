@@ -153,7 +153,6 @@ Assets/
 
 ## 🙏 Credits
 
-- The core gameplay systems were developed together with my instructor.
 - Characters from Mixamo; 3D models and UI from the Unity Asset Store; music and sound effects from Pixabay.
 - Cover art: AI-generated.
 
